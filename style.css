@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 950px;
+    width: 1200px;
+}
+
+.base {
+    width: 100px;
+    height: 100px;
+    background: url(army.jpg);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.controlers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cannon {
+    position: absolute;
+    height: 150px;
+    width: 20px;
+    background: url(black-metal-texture.jpg);
+    background-size: cover;
+    border-radius: 20%;
+    bottom: 90%;
+    left: 50%;
+    transform-origin: 0 100%;
+    transform: rotate(270deg) translate(-50%,0);
+}
+
+
+.target {
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+    background: url(target.png);
+    background-size: cover;
+}
